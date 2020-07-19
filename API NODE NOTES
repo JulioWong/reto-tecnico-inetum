@@ -1,0 +1,42 @@
+docker
+javascript
+path intellinsense
+npm
+bracket pair colorizer
+prettier
+
+
+npm install sequelize
+
+npx sequelize-cli init
+
+npx sequelize-cli model:generate --name Contact --attributes firstname:string,lastname:string,phone:string,email:string
+
+npx sequelize db:migrate
+
+npx sequelize seed:generate --name seed-contact
+
+npx sequelize db:seed:all
+
+
+npm install mongoose
+npm install dotenv
+
+
+
+
+npm i express cors mongoose
+npm i -D dotenv nodemon
+
+
+----------------------------------------------
+
+API NODE
+
+
+npm install express express-async-errors awilix cors compression helmet bcryptjs jsonwebtoken memory-cache mongoose swagger-ui-express
+
+
+npm install -D dotenv nodemon mockingoose jest
+
+npm install mongoose-autopopulate

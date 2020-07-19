@@ -1,0 +1,11 @@
+npm i -D eslint (Auditoria de código)
+
+npx eslint --init
+
+npm i awilix (Contenedor de dependencias)
+
+
+npm i awilix-express
+
+
+npm install mysql2
