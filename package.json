@@ -1,0 +1,39 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "Examen NodeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "cross-env NODE_ENV=test jest --coverage --passWithNoTests"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "mongodb": "^3.5.6",
+    "supertest": "^4.0.2",
+    "yenv": "^2.1.1"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
